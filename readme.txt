@@ -1,0 +1,1 @@
+This repo was created to try out mvvmcross with a native xamarin project

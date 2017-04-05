@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>f96c8b45-a71f-43c0-89bc-1e8a16337773</ProjectGuid>
+    <ProjectGuid>{F96C8B45-A71F-43C0-89BC-1E8A16337773}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>XamarinMvvm.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -65,11 +65,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\XamarinMvvm\XamarinMvvm.csproj">
-      <Name>XamarinMvvm</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
@@ -143,6 +138,12 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinMvvm.Core\XamarinMvvm.Core.csproj">
+      <Project>{18666bf7-cbe6-4a75-a7b3-5bda3869d1c4}</Project>
+      <Name>XamarinMvvm.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

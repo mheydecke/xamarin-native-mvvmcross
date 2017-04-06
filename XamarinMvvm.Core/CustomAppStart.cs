@@ -1,7 +1,7 @@
 ﻿using MvvmCross.Core.ViewModels;
 using XamarinMvvm.ViewModels;
 
-namespace XamarinMvvm
+namespace XamarinMvvm.Core
 {
     class CustomAppStart : MvxNavigatingObject, IMvxAppStart
     {

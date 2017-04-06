@@ -2,6 +2,7 @@
 
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Platform;
+using XamarinMvvm.Core;
 
 namespace XamarinMvvm.Droid
 {

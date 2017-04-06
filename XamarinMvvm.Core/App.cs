@@ -2,7 +2,7 @@
 using MvvmCross.Core.ViewModels;
 using XamarinMvvm.Services;
 
-namespace XamarinMvvm
+namespace XamarinMvvm.Core
 {
     public class App : MvxApplication
     {
